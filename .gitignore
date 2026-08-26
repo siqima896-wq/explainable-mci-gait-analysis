@@ -1,0 +1,37 @@
+# Participant and research data
+data/
+Source/
+input/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.sav
+
+# Manuscripts and internal documents
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Operating-system and editor files
+.DS_Store
+.vscode/
+.idea/
